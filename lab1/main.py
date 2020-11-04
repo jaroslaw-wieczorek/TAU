@@ -13,8 +13,8 @@ translator = Translator(service_urls=[
     ])
 
 
-dev0 = {"in": './dev-0/in.tsv', "out": './lab1/dev-0/out.tsv'}
-testA = {"in": './test-A/in.tsv', "out": './lab1/test-A/out.tsv'}
+dev0 = {"in": './dev-0/in.tsv', "out": './dev-0/out.tsv'}
+testA = {"in": './test-A/in.tsv', "out": './test-A/out.tsv'}
 
 with open(testA['in']) as in_file:
     with open(testA['out'], 'w') as out_file:
